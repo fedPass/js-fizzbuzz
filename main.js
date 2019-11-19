@@ -18,7 +18,7 @@
  //      }
  // }
 
- // soluzione if else if - else
+ // soluzione if - else if - else
  for (var i = 1; i <= 100; i++) {
     // multipli di 3 stampare "Fizz"
     if ([i] % 3 == 0) {
@@ -36,25 +36,23 @@
      }
 }
 
- // prova con switch
-// for (var i = 1; i <= 99; i++) {
-//     console.log([i]);
-// }
-//
-// switch ([i]) {
-//    case "1" :
-//       [i] % 3 == 0;
-//       console.log('Fizz');
-//       break;
-//   case "2" :
-//     [i] % 5 == 0;
-//     console.log('Buzz');
-//     break;
-//   case "3":
-//     ([i] % 5 != 0) && ([i] % 3 != 0);
-//     console.log('FizzBuzz');
-//     break;
-//   default:
-//     console.log([i]);
-//     break;
+ // prova con switch --> non mi funziona
+// for (var i = 1; i <= 100; i++) {
+//     switch ([i]) {
+//        case 'x':
+//         [i] % 3 == 0;
+//         console.log('Fizz');
+//         break;
+//       case 'y':
+//         [i] % 5 == 0;
+//         console.log('Buzz');
+//         break;
+//       case 'z':
+//         ([i] % 5 != 0) && ([i] % 3 != 0);
+//         console.log('FizzBuzz');
+//         break;
+//       default:
+//         console.log([i]);
+//         break;
+//     }
 // }
